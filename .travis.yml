@@ -4,5 +4,4 @@ python:
 install:
   - pip install codecov
 script:
-  - python setup.py testafter_success:
-  - codecov --token=a5c67809-db25-4cf5-8ae6-9aa56e913421
+  - python setup.py test
