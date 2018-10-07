@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(
-    name="greetings",
+    name="hangman",
     version="0.0.0",
     author="Gruzdeva Sofia",
     author_email="gruzdeva@phystech.edu",
