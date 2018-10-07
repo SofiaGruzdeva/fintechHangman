@@ -4,6 +4,5 @@ python:
 install:
   - pip install codecov
 script:
-  - ./setup.py test
-after_success:
+  - python setup.py testafter_success:
   - codecov
