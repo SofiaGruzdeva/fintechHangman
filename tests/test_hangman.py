@@ -3,6 +3,8 @@
 
 # In[27]:
 
+"""Just tests"""
+
 import pytest
 import hangman
 
@@ -14,6 +16,7 @@ import hangman
     (hangman.input_check('123', []), False),
 ])
 def test_input_check(test_input, expected):
+    """Test the validator"""
     assert test_input == expected
 
 
@@ -23,4 +26,5 @@ def test_input_check(test_input, expected):
     (hangman.try_guess('g', ['*'], 'w'), (['*'], False))
 ])
 def test_try_guess(test_input, exp):
+    """Test the core func"""
     assert test_input == exp
